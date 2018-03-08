@@ -1,0 +1,16 @@
+hostname: helphub.test
+ip: 192.168.33.233
+db_host: 192.168.33.233
+
+version: nightly
+lang: en_US
+
+plugins: []
+
+theme_unit_test: false
+theme_unit_test_uri: https://raw.githubusercontent.com/WPTRT/theme-unit-test/master/themeunittestdata.wordpress.xml
+# theme_unit_test_uri: https://raw.githubusercontent.com/jawordpressorg/theme-test-data-ja/master/wordpress-theme-test-date-ja.xml
+
+composers: []
+ruby_gems: []
+wp_cli_packages: []

@@ -1,0 +1,5 @@
+path: wordpress
+require:
+  - wp-cli/browse-command.php
+@helphub.test:
+  ssh: vagrant:helphub.test:/var/www/html
