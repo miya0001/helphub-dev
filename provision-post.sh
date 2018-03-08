@@ -4,7 +4,7 @@ set -ex
 
 cd /var/www/html/wp-content
 if [ -d .git ]; then
-  git pull
+  git pull origin master
 else
   git init
   git remote add origin https://github.com/Kenshino/HelpHub.git
